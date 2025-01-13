@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkthe_long_dark_wiki=self.webpackChunkthe_long_dark_wiki||[]).push([[1903],{1912:e=>{e.exports=JSON.parse('{"blogBasePath":"/blog","blogTitle":"Blog","authorsListPath":"/blog/authors"}')}}]);
