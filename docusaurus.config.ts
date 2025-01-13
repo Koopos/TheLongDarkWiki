@@ -8,6 +8,7 @@ const config: Config = {
   title: 'The Long Dark Wiki',
   tagline: 'Dinosaurs are cool',
   favicon: 'img/favicon.ico',
+  deploymentBranch: 'gh-pages',
 
   // Set the production url of your site here
   url: 'https://your-docusaurus-site.example.com',
