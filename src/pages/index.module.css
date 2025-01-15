@@ -21,3 +21,16 @@
   align-items: center;
   justify-content: center;
 }
+
+.textLeft {
+ text-align: left;
+}
+
+.main {
+
+}
+
+.main {
+  background-image: url('https://static.wikia.nocookie.net/intothelongdark/images/5/50/Wiki-background/revision/latest?cb=20201103013242');
+  background-size: cover;
+}

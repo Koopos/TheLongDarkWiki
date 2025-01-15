@@ -5,8 +5,8 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'The Long Dark Wiki',
-  tagline: 'Dinosaurs are cool',
+  title: '欢迎辞：漫漫长夜中文百科',
+  tagline: '在寒夜中活下去',
   favicon: 'img/favicon.ico',
   deploymentBranch: 'gh-pages',
 
