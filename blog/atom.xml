@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://koopos.github.io/TheLongDarkWiki/blog</id>
-    <title>The Long Dark Wiki Blog</title>
+    <title>欢迎辞：漫漫长夜中文百科 Blog</title>
     <updated>2021-08-26T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://koopos.github.io/TheLongDarkWiki/blog"/>
-    <subtitle>The Long Dark Wiki Blog</subtitle>
+    <subtitle>欢迎辞：漫漫长夜中文百科 Blog</subtitle>
     <icon>https://koopos.github.io/TheLongDarkWiki/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>
