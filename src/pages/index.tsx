@@ -2,7 +2,7 @@
  * @Author: 娄松
  * @Date: 2025-01-10 16:48:19
  * @LastEditors: 娄松 
- * @LastEditTime: 2025-01-15 10:41:50
+ * @LastEditTime: 2025-01-15 10:45:24
  * @FilePath: \TheLongDarkWiki\src\pages\index.tsx
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -47,8 +47,8 @@ export default function Home(): ReactNode {
   const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />"
+      title={`${siteConfig.title}`}
+      description="漫漫长夜中文wiki"
     >
       <HomepageHeader />
       <main>
