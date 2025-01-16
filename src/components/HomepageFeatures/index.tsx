@@ -1,136 +1,104 @@
-import type {ReactNode} from 'react';
-import clsx from 'clsx';
-import Heading from '@theme/Heading';
-import styles from './styles.module.css';
-import Link from '@docusaurus/Link';
+import type { ReactNode } from "react";
+import clsx from "clsx";
+import Heading from "@theme/Heading";
+import styles from "./styles.module.css";
+import Link from "@docusaurus/Link";
 
 type FeatureItem = {
   title: string;
-  Svg: React.ComponentType<React.ComponentProps<'svg'>>;
+  Svg: React.ComponentType<React.ComponentProps<"svg">>;
   description: ReactNode;
-  to: string
+  to: string;
 };
 
 const FeatureList: FeatureItem[] = [
   {
-    title: '遗忘之境',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
-    description: (
-      <>
-        每一片区域都像是被时间遗忘的角落，承载着风雪与孤独的记忆
-      </>
-    ),
-    to: '/docs/遗忘之境/序章'
+    title: "遗忘之境",
+    Svg: require("@site/static/img/undraw_docusaurus_mountain.svg").default,
+    description: <>每一片区域都像是被时间遗忘的角落，承载着风雪与孤独的记忆</>,
+    to: "/docs/遗忘之境/序章",
   },
   {
-    title: '孤寂之痕',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: "孤寂之痕",
+    Svg: require("@site/static/img/undraw_docusaurus_mountain.svg").default,
     description: (
-      <>
-        每一个地点都是人类与自然抗争的痕迹，孤独而坚韧地存在于冰雪之中。
-      </>
+      <>每一个地点都是人类与自然抗争的痕迹，孤独而坚韧地存在于冰雪之中。</>
     ),
-    to: '/docs/孤寂之痕/序章'
+    to: "/docs/孤寂之痕/序章",
   },
   {
-    title: '寒霜之蚀',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: "寒霜之蚀",
+    Svg: require("@site/static/img/undraw_docusaurus_tree.svg").default,
     description: (
-      <>
-        寒冷与伤痛如同无形的侵蚀，一点点吞噬着生存者的意志与生命。
-      </>
+      <>寒冷与伤痛如同无形的侵蚀，一点点吞噬着生存者的意志与生命。</>
     ),
-    to: '/docs/寒霜之蚀/序章'
+    to: "/docs/寒霜之蚀/序章",
   },
   {
-    title: '风雪旅人',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: "风雪旅人",
+    Svg: require("@site/static/img/undraw_docusaurus_mountain.svg").default,
     description: (
-      <>
-        每一位新角色都是这片冰雪世界中的旅者，带着各自的故事与命运。
-      </>
+      <>每一位新角色都是这片冰雪世界中的旅者，带着各自的故事与命运。</>
     ),
-    to: '/docs/风雪旅人/序章'
-    
+    to: "/docs/风雪旅人/序章",
   },
   {
-    title: '荒野之灵',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
-    description: (
-      <>
-        野生动物是这片荒野的灵魂，既是生存的威胁，也是自然的馈赠
-      </>
-    ),
-    to: '/docs/荒野之灵/序章'
+    title: "荒野之灵",
+    Svg: require("@site/static/img/undraw_docusaurus_mountain.svg").default,
+    description: <>野生动物是这片荒野的灵魂，既是生存的威胁，也是自然的馈赠</>,
+    to: "/docs/荒野之灵/序章",
   },
   {
-    title: '生命之息',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: "生命之息",
+    Svg: require("@site/static/img/undraw_docusaurus_mountain.svg").default,
     description: (
-      <>
-        每一口食物与饮品都是维持生命的微弱气息，支撑着你在寒夜中前行
-      </>
+      <>每一口食物与饮品都是维持生命的微弱气息，支撑着你在寒夜中前行</>
     ),
-    to: '/docs/生命之息/序章'
+    to: "/docs/生命之息/序章",
   },
   {
-    title: '风雪之甲',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
-    description: (
-      <>
-        衣物是你抵御风雪的铠甲，保护你免受寒冷的侵袭
-      </>
-    ),
-    to: '/docs/风雪之甲/序章'
+    title: "风雪之甲",
+    Svg: require("@site/static/img/undraw_docusaurus_mountain.svg").default,
+    description: <>衣物是你抵御风雪的铠甲，保护你免受寒冷的侵袭</>,
+    to: "/docs/风雪之甲/序章",
   },
   {
-    title: '希望之愈',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
-    description: (
-      <>
-        急救物品是黑暗中的一丝希望，治愈伤痛，延续生命
-      </>
-    ),
-    to: '/docs/希望之愈/序章'
-
+    title: "希望之愈",
+    Svg: require("@site/static/img/undraw_docusaurus_mountain.svg").default,
+    description: <>急救物品是黑暗中的一丝希望，治愈伤痛，延续生命</>,
+    to: "/docs/希望之愈/序章",
   },
   {
-    title: '生存之钥',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: "生存之钥",
+    Svg: require("@site/static/img/undraw_docusaurus_mountain.svg").default,
     description: (
-      <>
-        工具是打开生存之门的钥匙，帮助你在这片荒野中开辟前行的道路。
-      </>
+      <>工具是打开生存之门的钥匙，帮助你在这片荒野中开辟前行的道路。</>
     ),
-    to: '/docs/生存之钥/序章'
-
+    to: "/docs/生存之钥/序章",
   },
   {
-    title: '大地之馈',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: "大地之馈",
+    Svg: require("@site/static/img/undraw_docusaurus_react.svg").default,
     description: (
-      <>
-        材料是大地赐予的礼物，通过你的双手，化为生存的希望与力量。
-      </>
+      <>材料是大地赐予的礼物，通过你的双手，化为生存的希望与力量。</>
     ),
-    to: '/docs/大地之馈/序章'
+    to: "/docs/大地之馈/序章",
   },
 ];
 
-function Feature({title, Svg, description,to}: FeatureItem) {
+function Feature({ title, Svg, description, to }: FeatureItem) {
   return (
-    <Link to={to}>
-      <div className={clsx('col col--3')}>
-      <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
-      </div>
-      <div className="text--center padding-horiz--md">
-        <Heading as="h3">{title}</Heading>
-        <p>{description}</p>
-      </div>
+    <div className={clsx("col col--3")}>
+      <Link to={to}>
+        <div className="text--center">
+          <Svg className={styles.featureSvg} role="img" />
+        </div>
+        <div className="text--center padding-horiz--md">
+          <Heading as="h3">{title}</Heading>
+          <p>{description}</p>
+        </div>
+      </Link>
     </div>
-    </Link>
-  
   );
 }
 
