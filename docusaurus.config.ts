@@ -18,8 +18,8 @@ const config: Config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'koopos', // Usually your GitHub org/user name.
+  projectName: 'TheLongDarkWiki', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -95,7 +95,7 @@ const config: Config = {
           items: [
             {
               label: 'Tutorial',
-              to: '/docs/介绍',
+              to: '/docs/序章/我是菜鸟.md',
             },
           ],
         },
