@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkthe_long_dark_wiki=self.webpackChunkthe_long_dark_wiki||[]).push([[7437],{3369:e=>{e.exports=JSON.parse('{"metadata":{"permalink":"/TheLongDarkWiki/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
