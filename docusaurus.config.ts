@@ -95,7 +95,7 @@ const config: Config = {
           items: [
             {
               label: 'Tutorial',
-              to: '/docs/序章/我是菜鸟.md',
+              to: '/docs/序章/我是菜鸟',
             },
           ],
         },
