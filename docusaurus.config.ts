@@ -81,7 +81,7 @@ const config: Config = {
           label: '入门须知',
         },
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/Koopos/TheLongDarkWiki',
           label: 'GitHub',
           position: 'right',
         },
@@ -102,18 +102,18 @@ const config: Config = {
         {
           title: 'Community',
           items: [
-            {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'X',
-              href: 'https://x.com/docusaurus',
-            },
+            // {
+            //   label: 'Stack Overflow',
+            //   href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+            // },
+            // {
+            //   label: 'Discord',
+            //   href: 'https://discordapp.com/invite/docusaurus',
+            // },
+            // {
+            //   label: 'X',
+            //   href: 'https://x.com/docusaurus',
+            // },
           ],
         },
         {
@@ -125,12 +125,12 @@ const config: Config = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/Koopos/TheLongDarkWiki',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} 漫漫长夜Wiki, Inc. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
